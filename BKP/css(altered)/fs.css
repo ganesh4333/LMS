@@ -1,0 +1,39 @@
+form{
+	background-color:yellow;
+	color:red;
+padding:20px;
+font-size:25px;	
+margin-top:20px;
+    display:block;
+    width:100%;
+
+}
+form .pin select{width:80px; height:40px;font-size:25px;}
+form .pin input{width:80px;height:40px;font-size:25px;}
+form select{width:100px;height:45px;margin-top:10px;margin-bottom:10px;font-size:25px;}
+
+.blink_text {
+
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+
+     color: red;
+    }
+
+    @-moz-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100
